@@ -1,0 +1,186 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   🚀 QUICK START — Website Sekolah SMA Nusantara Bangsa      ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📋 LANGKAH CEPAT (3 Menit)
+═══════════════════════════════════════════════════════════════
+
+1️⃣  CEK NODE.JS
+    ─────────────────────────────────────────────────────────
+    Buka terminal, ketik:
+    
+    node -v
+    npm -v
+    
+    ✅ Jika muncul versi → Lanjut ke langkah 2
+    ❌ Jika error → Install Node.js dari nodejs.org
+    
+    📖 Panduan lengkap: Baca INSTALASI_NODEJS.md
+
+
+2️⃣  INSTALL DEPENDENCIES
+    ─────────────────────────────────────────────────────────
+    cd C:\Users\ferdi\suka\sekolah-app
+    npm install
+    
+    ⏱️  Tunggu 1-3 menit (download ~350 packages)
+
+
+3️⃣  JALANKAN APLIKASI
+    ─────────────────────────────────────────────────────────
+    npm run dev
+    
+    🌐 Buka browser: http://localhost:3000
+    
+    🎉 SELESAI! Website sudah berjalan!
+
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOKUMENTASI LENGKAP
+═══════════════════════════════════════════════════════════════
+
+Untuk Pemula:
+  📄 MULAI_DISINI.md          ← Baca ini dulu!
+  📄 RINGKASAN_PROYEK.md      ← Overview cepat
+  📄 INSTALASI_NODEJS.md      ← Panduan install Node.js
+
+Untuk Developer:
+  📄 README.md                ← Dokumentasi utama
+  📄 STRUKTUR_PROYEK.md       ← Penjelasan struktur
+  📄 API_DOCUMENTATION.md     ← Dokumentasi API
+  📄 TREE_STRUKTUR.txt        ← Visual tree struktur
+
+Untuk Deployment:
+  📄 DEPLOYMENT.md            ← Panduan deploy
+  📄 .env.example             ← Template env variables
+
+Untuk Kontributor:
+  📄 CONTRIBUTING.md          ← Panduan kontribusi
+  📄 CHANGELOG.md             ← Riwayat perubahan
+
+
+═══════════════════════════════════════════════════════════════
+
+🎯 FITUR UTAMA
+═══════════════════════════════════════════════════════════════
+
+✨ Hero Section Interaktif
+   - Teks dinamis dengan efek typewriter
+   - Marquee pengumuman berjalan
+   - Statistik sekolah
+
+🎨 Mading Digital
+   - Layout masonry
+   - Filter kategori (Seni, Sains, Prestasi, Teknologi)
+   - Animasi smooth
+
+🏃 Ekstrakurikuler
+   - Grid responsif
+   - Filter kategori (Seni, Olahraga, Teknologi, Bahasa)
+
+📝 Portal PPDB
+   - Form dengan validasi
+   - Submit via Server Action
+   - Alert sukses/error
+
+🌓 Dark/Light Mode
+   - Toggle di Navbar
+   - Preferensi tersimpan
+
+
+═══════════════════════════════════════════════════════════════
+
+🛠️ TECH STACK
+═══════════════════════════════════════════════════════════════
+
+Framework:      Next.js 14 (App Router)
+Language:       TypeScript
+Styling:        Tailwind CSS
+Animation:      Framer Motion
+Icons:          Lucide React
+
+
+═══════════════════════════════════════════════════════════════
+
+🔧 PERINTAH NPM
+═══════════════════════════════════════════════════════════════
+
+npm install         → Install dependencies
+npm run dev         → Jalankan dev server
+npm run build       → Build untuk production
+npm start           → Jalankan production server
+npm run lint        → Cek kode dengan ESLint
+
+
+═══════════════════════════════════════════════════════════════
+
+🌐 HALAMAN YANG TERSEDIA
+═══════════════════════════════════════════════════════════════
+
+/                   → Beranda
+/mading             → Mading Digital
+/ekskul             → Ekstrakurikuler
+/ppdb               → Form PPDB
+
+/api/pengumuman     → API Pengumuman
+/api/karya-siswa    → API Mading
+/api/ekskul         → API Ekskul
+
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ Error: 'node' is not recognized
+   → Install Node.js dari nodejs.org
+
+❌ Error: Port 3000 already in use
+   → npm run dev -- -p 3001
+
+❌ Error saat npm install
+   → rm -rf node_modules package-lock.json
+   → npm install
+
+❌ Dark mode tidak berfungsi
+   → Clear cache browser (Ctrl+Shift+Delete)
+
+
+═══════════════════════════════════════════════════════════════
+
+📞 BUTUH BANTUAN?
+═══════════════════════════════════════════════════════════════
+
+1. Baca dokumentasi di folder proyek
+2. Search di Google dengan keyword spesifik
+3. Buka GitHub Issues untuk tanya
+4. Join komunitas Next.js/React Indonesia
+
+
+═══════════════════════════════════════════════════════════════
+
+✅ CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+[ ] Node.js terinstall
+[ ] Dependencies terinstall (npm install)
+[ ] Dev server berjalan (npm run dev)
+[ ] Website bisa diakses (http://localhost:3000)
+[ ] Sudah explore semua halaman
+[ ] Sudah coba toggle dark mode
+[ ] Sudah coba filter di Mading & Ekskul
+[ ] Sudah coba submit form PPDB
+[ ] Sudah baca MULAI_DISINI.md
+
+
+═══════════════════════════════════════════════════════════════
+
+🎉 SELAMAT MENGGUNAKAN!
+═══════════════════════════════════════════════════════════════
+
+Untuk panduan lengkap, baca: MULAI_DISINI.md
+
+Happy Coding! 🚀
